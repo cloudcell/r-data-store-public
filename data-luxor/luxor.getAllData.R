@@ -5,7 +5,9 @@
 #       data from the folder /extdata_full/ instead of /extdata/
 # Author: cloudcello
 # Date: 2015-11-15
-
+                   
+# need quantstrat to get its path
+require(quantstrat)
 
 DATAURL <- "http://github.com/cloudcello/r-data-store-public/blob/master/data-luxor/GBPUSD_full.zip?raw=true"
 datapath <- paste0(path.package("quantstrat"),"/extdata_full/GBPUSD")
